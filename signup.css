@@ -149,12 +149,12 @@
     font-weight:bold;
 }
 #name{
-    width:70%;
-    height:7%;
+    width:12rem;
+    height:2.5rem;
     background-color:#EEEEEE;
     border:none;
-    padding:0px 0px 0px 5%;
-    margin-bottom:6%;
+    padding: 0px 0px 0px 5rem;
+    margin-bottom: 1rem;
 }
 #background{
     position:absolute;
