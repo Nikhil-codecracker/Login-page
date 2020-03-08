@@ -17,7 +17,7 @@
     border-radius: 40px;
     margin-left:auto;
     margin-right:auto;
-    box-shadow: 5px 5px 10px rgb(168, 168, 168);
+    background-color: white; 
 }
 .part{
     height:35rem;
@@ -170,4 +170,24 @@
     left:50%;
     z-index:10;
     display:none;
+}
+
+html,
+body {
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+  background: #fff;
+}
+
+#canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: black;
 }
